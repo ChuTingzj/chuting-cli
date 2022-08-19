@@ -36,12 +36,7 @@ program
           type: 'list',
           name: 'template',
           message: '请选择其中一个项目模板:',
-          choices: [
-            '基于Vue3+Pinia的小程序项目',
-            '基于Vue3+TS+Pinia的头条项目',
-            '基于React+TS+react-redux的后台管理项目',
-            '基于Vue3+TS的项目预设'
-          ]
+          choices: Object.keys(templates)
         }
       ])
       .then(async answers => {
@@ -56,5 +51,14 @@ program
         process.succeed()
         console.log(chalk.bold.green('✔下载成功,请在当前目录下的ChuTingzj目录中查看您的项目'))
       })
+  })
+program
+  .command('ls')
+  .description('check all templates')
+  .action(() => {
+    const arr = Object.keys(templates)
+    arr.forEach(item => {
+      console.log(chalk.bold.whiteBright(item))
+    })
   })
 program.parse(process.argv)
