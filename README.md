@@ -1,5 +1,9 @@
 # chuting-cli
 
+## issues
+
+- 修复 git clone 128 问题
+
 ## 目前支持的命令
 
 1. **init**
