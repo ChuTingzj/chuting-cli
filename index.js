@@ -16,7 +16,7 @@ const templates = {
     url: 'github:ChuTingzj/vue-headline'
   },
   '基于React+TS+react-redux的后台管理项目': {
-    url: 'github:ChuTingzj/react-back-stage-management'
+    url: 'git@github.com:ChuTingzj/react-back-stage-management.git'
   },
   '基于Vue3+TS的项目预设': {
     url: 'github:ChuTingzj/vue-ts'
