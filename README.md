@@ -48,5 +48,9 @@
    - **网络请求:Axios**
 
 4. Vue3+TS 的项目脚手架
+
    - **基于 webpack 构建生成**
    - **集成:eslint、prettier、stylelint、husky、tailwindcss、scss、pinia、vue-router**
+
+5. Webpack+TS 的项目脚手架
+   - **一些基于 webpack+ts 的项目配置**
