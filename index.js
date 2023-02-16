@@ -9,14 +9,8 @@ const {program} = require('commander')
 const clear = require('clear')
 const {version} = require('./package.json')
 const templates = {
-    '基于Vue3+Pinia的小程序项目': {
-        url: 'github:ChuTingzj/uni-shop#master'
-    },
-    '基于Vue3+TS+Pinia的头条项目': {
-        url: 'github:ChuTingzj/vue-headline#master'
-    },
-    '基于React+TS+react-redux的后台管理项目': {
-        url: 'github:ChuTingzj/vue-headline#master'
+    '基于pnpm+pnpm-workspace的monorepo预设': {
+        url: 'github:ChuTingzj/monorepo-presets#master'
     },
     '基于Vue3+TS的项目预设': {
         url: 'github:ChuTingzj/vue-ts#master'

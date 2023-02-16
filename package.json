@@ -13,7 +13,8 @@
     "cli",
     "vue",
     "webpack",
-    "presets"
+    "presets",
+    "monorepo"
   ],
   "author": "ChuTingzj",
   "license": "MIT",
