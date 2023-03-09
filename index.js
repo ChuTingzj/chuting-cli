@@ -12,12 +12,15 @@ const templates = {
     '基于pnpm+pnpm-workspace的monorepo预设': {
         url: 'github:ChuTingzj/monorepo-presets#master'
     },
+    '基于pnpm+turborepo的monorepo预设':{
+        url:'github:ChuTingzj/turborepo-presets#master'
+    },
     '基于Vue3+TS的项目预设': {
         url: 'github:ChuTingzj/vue-ts#master'
     },
     '基于webpack+TS的项目预设': {
         url: 'github:ChuTingzj/webpack-ts-presets#main'
-    }
+    },
 }
 program.version(version)
 program

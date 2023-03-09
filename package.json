@@ -3,9 +3,6 @@
   "version": "2.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "bin": {
     "chuting": "./index.js"
   },
@@ -32,6 +29,5 @@
   "repository": {
     "type": "git",
     "url": "git@github.com:ChuTingzj/chuting-cli.git"
-  },
-  "homepage": "https://github.com/ChuTingzj"
+  }
 }
