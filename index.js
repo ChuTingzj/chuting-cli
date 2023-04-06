@@ -21,6 +21,9 @@ const templates = {
     '基于webpack+TS的项目预设': {
         url: 'github:ChuTingzj/webpack-ts-presets#main'
     },
+    '基于create-t3-app生成的nextjs预设':{
+        url: 'https://github.com/ChuTingzj/next-trpc-presets#origin'
+    }
 }
 program.version(version)
 program
